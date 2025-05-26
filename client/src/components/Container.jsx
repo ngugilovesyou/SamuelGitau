@@ -6,6 +6,7 @@ import About from "./About";
 import Projects from "./Projects";
 import Contact from "./Contact";
 import App from "../App";
+import Pricing from "./Pricing";
 
 function Container() {
   const { currentPage } = useStore();
@@ -21,6 +22,9 @@ function Container() {
     case "Contact":
       pageContent = <Contact />;
       break;
+    case "Pricing":
+      pageContent = <Pricing />;
+      break  
     default:
       pageContent = <About />;
       break;

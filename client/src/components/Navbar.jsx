@@ -34,6 +34,12 @@ function Navbar() {
           </button>
           <button
             className="text-gray-600 hover:text-gray-800"
+            onClick={() => setCurrentPage("Pricing")}
+          >
+            Pricing
+          </button>
+          <button
+            className="text-gray-600 hover:text-gray-800"
             onClick={() => setCurrentPage("Contact")}
           >
             Contact

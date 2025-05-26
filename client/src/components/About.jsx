@@ -25,17 +25,18 @@ function About() {
           <li>API Development: Creating and integrating RESTful APIs.</li>
           <li>Authentication & Security: Implementing JWT & bcrypt.</li>
           <li>Database Management: Designing databases with SQLAlchemy.</li>
-          <li>Real-Time Features: WebSockets, WebRTC for video calls.</li>
+          <li>Real-Time Features: WebSockets.</li>
         </ul>
 
-        <h3 className="text-2xl font-semibold text-indigo-600 mt-8">
+        {/* <h3 className="text-2xl font-semibold text-indigo-600 mt-8">
           🚀 Notable Projects
         </h3>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
           <div className="p-4 bg-indigo-50 rounded-lg shadow-md">
-            <h4 className="font-bold text-indigo-700">YapperHub</h4>
+            <h4 className="font-bold text-indigo-700">Usichizi</h4>
             <p className="text-sm text-gray-600">
-              A real-time social chat application.
+              Usichizi is a mental health self-assessment web app designed to
+              help users understand their emotional well-being.
             </p>
           </div>
           <div className="p-4 bg-indigo-50 rounded-lg shadow-md">
@@ -56,22 +57,51 @@ function About() {
               A system for handling books and users.
             </p>
           </div>
-        </div>
+        </div> */}
 
         <h3 className="text-2xl font-semibold text-indigo-600 mt-8">
           🛠 Tech Stack
         </h3>
         <p className="text-gray-700">
           <span className="font-semibold">Frontend:</span> React, JavaScript,
-          TailwindCSS, Bootstrap
+          TailwindCSS, Bootstrap, MUI,
           <br />
-          <span className="font-semibold">Backend:</span> Flask, Python, FastAPI
+          <span className="font-semibold">Backend:</span> Flask, Python,
+          FastAPI, Django(DFR)
           <br />
-          <span className="font-semibold">Databases:</span> SQLite, PostgreSQL
+          <span className="font-semibold">Databases:</span> SQLite, PostgreSQL,
+          MySQL
           <br />
-          <span className="font-semibold">Tools & DevOps:</span> Git, Docker,
-          Postman
+          <span className="font-semibold">Tools & DevOps:</span> Git, Postman
         </p>
+
+        <h3 className="text-2xl font-semibold text-indigo-600 mt-8">
+          📊 Skills & Proficiency
+        </h3>
+        <div className="space-y-4 mt-4">
+          {[
+            { name: "React", percent: 90 },
+            { name: "Flask", percent: 85 },
+            { name: "SQLite", percent: 80 },
+            { name: "Tailwind CSS", percent: 88 },
+            { name: "Django", percent: 75 },
+            { name: "JavaScript", percent: 92 },
+            { name: "PostgreSQL", percent: 70 },
+          ].map((skill) => (
+            <div key={skill.name}>
+              <div className="flex justify-between mb-1">
+                <span className="text-gray-800 font-medium">{skill.name}</span>
+                <span className="text-sm text-gray-500">{skill.percent}%</span>
+              </div>
+              <div className="w-full bg-gray-200 rounded-full h-3 dark:bg-gray-700">
+                <div
+                  className="bg-indigo-500 h-3 rounded-full transition-all duration-500 ease-in-out"
+                  style={{ width: `${skill.percent}%` }}
+                ></div>
+              </div>
+            </div>
+          ))}
+        </div>
 
         <h3 className="text-2xl font-semibold text-indigo-600 mt-8">
           📚 Continuous Learning
