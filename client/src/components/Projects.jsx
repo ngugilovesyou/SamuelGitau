@@ -15,7 +15,7 @@ const projects = [
     title: "Portfolio Website",
     image: "assets/mywebsite (1).jpg",
     description:
-      "A modern personal portfolio showcasing projects, skills, and contact options. Built with React and Tailwind.",
+      "A modern personal portfolio showcasing projects, skills, and contact options. Built with ReactJS and Tailwind.",
     link: "https://samuel-gitau.vercel.app/",
   },
   {
@@ -23,7 +23,7 @@ const projects = [
     title: "Weather App",
     image: "assets/weather.jpg",
     description:
-      "Real-time weather updates using OpenWeatherMap API with a beautiful UI. Built with React.js, Tailwindcss, and Flask.",
+      "Real-time weather updates using OpenWeatherMap API with a beautiful UI. Built with ReactTS, Tailwindcss, and Flask.",
     link: "https://weather-app-ten-kohl-42.vercel.app/",
   },
 ];
