@@ -66,12 +66,6 @@ function Navbar() {
               >
                 <button
                   className="block px-4 py-2 text-gray-600 hover:text-gray-800 w-full text-center dark:text-white"
-                  onClick={() => setShowContainer(false) || navigate("/home")}
-                >
-                  Home
-                </button>
-                <button
-                  className="block px-4 py-2 text-gray-600 hover:text-gray-800 w-full text-center dark:text-white"
                   onClick={() => setCurrentPage("About")}
                 >
                   About
