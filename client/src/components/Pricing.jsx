@@ -49,14 +49,22 @@ function Pricing() {
     setForm((f) => ({ ...f, [e.target.name]: e.target.value }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     if (!form.name || !form.email || !form.details) {
       setFormStatus("Please fill in all fields.");
       return;
     }
     setFormStatus("Sending...");
-    // Here you’d integrate with your email service or backend
+     const formData = new FormData(event.target);
+    formData.append("access_key", "a6caf6de-a3b9-463d-9cd7-2706db0c3951");
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData,
+    });
+
+    const data = await response.json();
     setTimeout(() => {
       setFormStatus("Request sent! I will get back to you soon.");
       setForm({ name: "", email: "", details: "" });
