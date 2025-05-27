@@ -6,10 +6,10 @@ function About() {
   return (
     <div className="">
       <div className="max-w-4xl bg-white shadow-lg rounded-3xl p-10 md:p-12 text-gray-800 dark:bg-gray-900">
-        <h2 className="text-3xl font-bold text-center text-indigo-600 mb-6">
+        <h2 className="text-3xl font-bold text-center text-indigo-600 mb-6 ">
           About Me
         </h2>
-        <p className="text-lg leading-relaxed text-gray-600 text-center">
+        <p className="text-lg leading-relaxed text-gray-600 text-center dark:text-white">
           👋 Hi, I'm <span className="font-semibold">Samuel Gitau</span>, a
           passionate full-stack developer with a love for building intuitive and
           scalable applications. I specialize in{" "}
@@ -20,7 +20,7 @@ function About() {
         <h3 className="text-2xl font-semibold text-indigo-600 mt-8">
           💡 What I Do
         </h3>
-        <ul className="list-disc pl-5 text-gray-700 leading-relaxed">
+        <ul className="list-disc pl-5 text-gray-700 leading-relaxed dark:text-white">
           <li>Full-Stack Development: Building dynamic web applications.</li>
           <li>API Development: Creating and integrating RESTful APIs.</li>
           <li>Authentication & Security: Implementing JWT & bcrypt.</li>
@@ -62,7 +62,7 @@ function About() {
         <h3 className="text-2xl font-semibold text-indigo-600 mt-8">
           🛠 Tech Stack
         </h3>
-        <p className="text-gray-700">
+        <p className="text-gray-700 dark:text-white">
           <span className="font-semibold">Frontend:</span> React, JavaScript,
           TailwindCSS, Bootstrap, MUI,
           <br />
@@ -106,7 +106,7 @@ function About() {
         <h3 className="text-2xl font-semibold text-indigo-600 mt-8">
           📚 Continuous Learning
         </h3>
-        <p className="text-lg leading-relaxed text-gray-600">
+        <p className="text-lg leading-relaxed text-gray-600 dark:text-white">
           I enjoy taking on new challenges and keeping up with the latest in web
           development. Whether it's implementing real-time interactions or
           diving deeper into AI-driven applications, I always seek opportunities
@@ -116,7 +116,7 @@ function About() {
         <h3 className="text-2xl font-semibold text-indigo-600 mt-8">
           🎮 Outside of Code
         </h3>
-        <p className="text-lg leading-relaxed text-gray-600">
+        <p className="text-lg leading-relaxed text-gray-600 dark:text-white">
           When I’m not coding, you’ll find me playing games, exploring AI
           technologies, or experimenting with new frameworks. I love
           problem-solving and building tools that make life easier.
