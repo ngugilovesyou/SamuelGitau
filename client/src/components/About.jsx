@@ -5,7 +5,7 @@ import React from "react";
 function About() {
   return (
     <div className="">
-      <div className="max-w-4xl bg-white shadow-lg rounded-3xl p-10 md:p-12 text-gray-800">
+      <div className="max-w-4xl bg-white shadow-lg rounded-3xl p-10 md:p-12 text-gray-800 dark:bg-gray-900">
         <h2 className="text-3xl font-bold text-center text-indigo-600 mb-6">
           About Me
         </h2>
