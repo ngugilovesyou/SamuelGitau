@@ -21,25 +21,25 @@ function Navbar() {
 
         <div className="hidden lg:flex gap-10">
           <button
-            className="text-gray-600 hover:text-gray-800 dark:text-white"
+            className="text-gray-600 hover:text-gray-300 dark:text-white"
             onClick={() => setCurrentPage("About")}
           >
             About
           </button>
           <button
-            className="text-gray-600 hover:text-gray-800 dark:text-white"
+            className="text-gray-600 hover:text-gray-300 dark:text-white"
             onClick={() => setCurrentPage("Projects")}
           >
             Projects
           </button>
           <button
-            className="text-gray-600 hover:text-gray-800 dark:text-white"
+            className="text-gray-600 hover:text-gray-300 dark:text-white"
             onClick={() => setCurrentPage("Pricing")}
           >
             Pricing
           </button>
           <button
-            className="text-gray-600 hover:text-gray-800 dark:text-white"
+            className="text-gray-600 hover:text-gray-300 dark:text-white"
             onClick={() => setCurrentPage("Contact")}
           >
             Contact
