@@ -4,11 +4,11 @@ import React from "react";
 const projects = [
   {
     id: 1,
-    title: "Usichizi",
+    title: "Mindcaretest",
     image: "assets/usichizi.jpg",
     description:
       "A mental health web app that allows users to assess their mental wellbeing, view their scores, identify potential mental health issues, and receive personalized recommendations. Integrated with secure payment gateways including PayPal and M-Pesa. Built using Flask and React.",
-    link: "https://usichizi.com",
+    link: "https://mindcaretest.health",
   },
   {
     id: 2,
