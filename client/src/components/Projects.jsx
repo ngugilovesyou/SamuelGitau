@@ -5,7 +5,7 @@ const projects = [
   {
     id: 1,
     title: "Mindcaretest",
-    image: "assets/usichizi.jpg",
+    image: "assets/mindcare.jpg",
     description:
       "A mental health web app that allows users to assess their mental wellbeing, view their scores, identify potential mental health issues, and receive personalized recommendations. Integrated with secure payment gateways including PayPal and M-Pesa. Built using Flask and React.",
     link: "https://mindcaretest.health",
