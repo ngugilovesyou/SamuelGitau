@@ -16,7 +16,7 @@ function Sidebar() {
       >
         <img
           className="w-full h-full object-cover"
-          src="assets/WhatsApp Image 2025-03-25 at 18.45.03.jpeg"
+          src="assets/arnold-francisca-f77Bh3inUpE-unsplash.jpg"
           alt="Profile"
         />
       </div>
