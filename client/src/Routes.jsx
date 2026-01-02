@@ -2,11 +2,11 @@ import {createBrowserRouter } from 'react-router-dom';
 import App from './App';
 import Container from './components/Container';
 import Sidebar from './components/Sidebar';
-
+import HardwareStoreSystem from './client/src/deepseek_javascript_20260102_c5f587.js'
 const routes = createBrowserRouter([
     {
         path:'/',
-        element:<App />
+        element:<HardwareStoreSystem />
     },
     {
         path:'/portfolio',
