@@ -1,20 +1,21 @@
-import {createBrowserRouter } from 'react-router-dom';
+import { createBrowserRouter } from 'react-router-dom';
 import Container from './components/Container';
 import Sidebar from './components/Sidebar';
-import HardwareStoreSystem from './deepseek_javascript_20260102_c5f587.js'
+import HardwareStoreSystem from './deepseek_javascript_20260102_c5f587.js';
+
 const routes = createBrowserRouter([
     {
-        path:'/',
-        element:<HardwareStoreSystem />
+        path: '/',
+        element: <HardwareStoreSystem />
     },
     {
-        path:'/portfolio',
-        element:<Container />
+        path: '/portfolio',
+        element: <Container />
     },
     {
-        path:'/home',
-        element:<Sidebar />
+        path: '/home',
+        element: <Sidebar />
     }
-])
+]);
 
-export default routes
+export default routes;
