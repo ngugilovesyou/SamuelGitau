@@ -2565,7 +2565,7 @@ const HardwareStoreSystem = () => {
                 
                 <div className="flex-1">
                   <h1 className="text-xl font-semibold text-gray-800 ml-4 lg:ml-0">
-                    HardwarePro - Stock & Sales Management
+                    HardwareBiz - Stock & Sales Management
                   </h1>
                 </div>
                 
