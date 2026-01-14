@@ -153,7 +153,7 @@ const HardwareStoreSystem = () => {
             <div className="bg-blue-600 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-4">
               <Package className="text-white" size={40} />
             </div>
-            <h1 className="text-3xl font-bold text-gray-800">HardwarePro Manager</h1>
+            <h1 className="text-3xl font-bold text-gray-800">Hardware Manager</h1>
             <p className="text-gray-600 mt-2">Stock & Sales System for Kenyan Hardware Stores</p>
             {offlineMode && (
               <div className="mt-2 bg-yellow-100 text-yellow-800 p-2 rounded text-sm">
@@ -247,8 +247,7 @@ const HardwareStoreSystem = () => {
               <div className="flex items-center space-x-3">
                 <Package size={32} className="text-blue-400" />
                 <div>
-                  <h2 className="text-xl font-bold">HardwarePro</h2>
-                  <p className="text-gray-400 text-sm">Kenya Edition</p>
+                  <h2 className="text-xl font-bold">HardwareBiz</h2>
                 </div>
               </div>
               <button 
